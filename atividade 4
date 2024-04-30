@@ -1,0 +1,9 @@
+from kivy.app import ToggleButton
+from kivy,uix.togglebutton import ToggleButton
+
+class MinhaApp (App):
+def build(self):
+return ToggleButton(text='Ligado', state='normal')
+
+if__name__ == "__main__":
+MinhaApp().run()
